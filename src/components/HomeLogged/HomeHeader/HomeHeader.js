@@ -42,7 +42,7 @@ export const HomeHeader = ({user, handleLogOut}) => {
                 <div className={"Home_title_deco"}> </div>
                 <div className={"Home_title_bottons"}>
                     <Link to="/OddajRzeczy" className={"Home_title_single_botton"}>Oddaj <span>rzeczy</span></Link>
-                    <Link to="/Login" className={"Home_title_single_botton"}>Zorganizuj <span> zbiórkę</span></Link>
+                    <Link to="/OddajRzeczy" className={"Home_title_single_botton"}>Zorganizuj <span> zbiórkę</span></Link>
                 </div>
                 </div>
             </div>

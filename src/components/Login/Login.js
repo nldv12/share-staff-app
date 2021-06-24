@@ -66,11 +66,11 @@ export const Login = (props) => {
                     <Link to="/SignUp" className={"account_el"}>Załóż konto</Link>
                 </div>
                 <div className={"nav"}>
-                    <Link to="/" className={"nav_el"}>Start</Link>
-                    <Link to="/" className={"nav_el"}>O co chodzi?</Link>
-                    <Link to="/" className={"nav_el"}>O nas</Link>
-                    <Link to="/" className={"nav_el"}>Fundacja i organizacje</Link>
-                    <Link to="/" className={"nav_el"}>Kontakt</Link>
+                    <Link to="/share-staff-app" className={"nav_el"}>Start</Link>
+                    <Link to="/share-staff-app" className={"nav_el"}>O co chodzi?</Link>
+                    <Link to="/share-staff-app" className={"nav_el"}>O nas</Link>
+                    <Link to="/share-staff-app" className={"nav_el"}>Fundacja i organizacje</Link>
+                    <Link to="/share-staff-app" className={"nav_el"}>Kontakt</Link>
                 </div>
             </div>
             <div className={"login_container"}>
