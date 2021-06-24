@@ -1,0 +1,135 @@
+@import "src/scss/main";
+
+.OddajHeader {
+  display: flex;
+  justify-content: space-between;
+  .left_side {
+    width: 800px;
+    height: 100vh;
+    background-image: url("../../../assets/Form-Hero-Image.jpg");
+    background-repeat: no-repeat;
+    background-position: right ;
+    background-size: cover;
+  }
+  .right_side {
+    height: 100vh;
+    width: 50%;
+    .Home_content {
+      margin-right: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .Home_title {
+    margin-top: 134px;
+    display: flex;
+    flex-direction: column;
+    font-size: 38px;
+    color: $dark-grey;
+    text-align: center;
+  }
+  .Home_title_deco {
+    margin-top: 25px;
+    height: 33px;
+    width: 253px;
+    background-image: url("../../../assets/Decoration.svg");
+  }
+  .Home_sec_title {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    font-size: 38px;
+    color: $dark-grey;
+    text-align: center;
+  }
+  .Home_title_diamonds {
+    margin-top: 25px;
+    display: flex;
+    gap: 20px;
+  }
+  .Home_title_single_diamond {
+    transform: rotateY(0deg) rotate(45deg);
+    height: 130px;
+    width: 130px;
+    border: 0.75px solid $dark-grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .number{
+      color: $dark-grey;
+      font-size: 32px;
+      font-weight: 300;
+      transform: rotateY(0deg) rotate(-45deg);
+      position: absolute;
+      left: 20px;
+      top: 13px;
+
+    }
+    .desc{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-top: 10px;
+      color: $dark-grey;
+      font-size: 22px;
+      font-weight: 300;
+      transform: rotateY(0deg) rotate(-45deg);
+      position: absolute;
+    }
+  }
+
+
+
+  .account_nav_container{
+    white-space: nowrap;
+    margin-right: 50px;
+    margin-top: 37px;
+    display: flex;
+    flex-direction: column;
+    .account {
+      display: flex;
+      align-self: flex-end;
+      .account_el {
+        text-decoration: none;
+        color: $light-grey;
+        padding: 18px 15px;
+        font-size: 14px;
+        transition: 0.2s;
+        border: 0.75px solid white;
+        cursor: pointer;
+
+      }
+      .account_el:hover {
+        border: 0.75px solid $my-yellow;
+        transform: scale(1.05);
+      }
+    }
+    .nav {
+      display: flex;
+      align-self: flex-end;
+
+      .nav_el {
+        text-decoration: none;
+        color: $dark-grey;
+        font-size: 18px;
+        padding: 21px 15px;
+        transition: 0.2s;
+        border: 0.75px solid white;
+        cursor: pointer;
+
+
+      }
+      .nav_el:hover {
+        border: 0.75px solid $dark-grey;
+        transform: scale(1.05);
+      }
+    }
+  }
+
+}

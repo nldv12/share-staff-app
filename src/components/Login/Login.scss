@@ -1,0 +1,137 @@
+@import "src/scss/main";
+
+
+.Login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+
+  .account_nav_container {
+    align-self: flex-end;
+    margin-right: 50px;
+    margin-top: 37px;
+    display: flex;
+    flex-direction: column;
+
+    .account {
+      display: flex;
+      align-self: flex-end;
+
+      .account_el {
+        text-decoration: none;
+        color: $light-grey;
+        padding: 18px 15px;
+        font-size: 14px;
+        transition: 0.2s;
+        border: 0.75px solid white;
+        cursor: pointer;
+
+      }
+
+      .account_el:hover {
+        border: 0.75px solid $my-yellow;
+        transform: scale(1.05);
+      }
+    }
+
+    .nav {
+      display: flex;
+      align-self: flex-end;
+
+      .nav_el {
+        text-decoration: none;
+        color: $dark-grey;
+        font-size: 18px;
+        padding: 21px 15px;
+        transition: 0.2s;
+        border: 0.75px solid white;
+        cursor: pointer;
+      }
+      .nav_el:hover {
+        border: 0.75px solid $dark-grey;
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  .login_container {
+    margin-top: 123px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 503px;
+
+    .title {
+      font-size: 40px;
+      color: $dark-grey;
+    }
+
+    .deco {
+      margin-top: 25px;
+      height: 33px;
+      width: 253px;
+      background-image: url("../../assets/Decoration.svg");
+      margin-bottom: 60px;
+    }
+    .form_container {
+      background: $almost-white;
+      height: 235px;
+      width: 385px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      .form_el {
+        display: flex;
+        flex-direction: column;
+        .label {
+          color: $dark-grey;
+          font-size: 16px;
+          font-weight: 600;
+          margin-bottom: 12px;
+        }
+        .inputText {
+          width: 250px;
+          background: none;
+          border: none;
+          border-bottom: 1px solid grey;
+        }
+        .inputText.error {
+          border-bottom: 1px solid red;
+
+        }
+        small {
+          margin-top: 5px;
+          color: red;
+          font-weight: 700;
+        }
+      }
+
+    }
+    .two_buttons {
+      margin-top: 40px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .btn {
+      cursor: pointer;
+      text-decoration: none;
+      color: $dark-grey;
+      font-size: 18px;
+      padding: 13px 15px;
+      transition: 0.2s;
+      border: 0.75px solid white;
+    }
+    .btn:hover {
+      border: 0.75px solid $dark-grey;
+      transform: scale(1.05);
+    }
+  }
+
+
+}

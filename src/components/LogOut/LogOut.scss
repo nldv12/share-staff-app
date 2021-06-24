@@ -1,0 +1,99 @@
+@import "src/scss/main";
+
+
+.LogOut {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+
+  .account_nav_container {
+    align-self: flex-end;
+    margin-right: 50px;
+    margin-top: 37px;
+    display: flex;
+    flex-direction: column;
+
+    .account {
+      display: flex;
+      align-self: flex-end;
+
+      .account_el {
+        text-decoration: none;
+        color: $light-grey;
+        padding: 18px 15px;
+        font-size: 14px;
+        transition: 0.2s;
+        border: 0.75px solid white;
+        cursor: pointer;
+
+      }
+
+      .account_el:hover {
+        border: 0.75px solid $my-yellow;
+        transform: scale(1.05);
+      }
+    }
+
+    .nav {
+      display: flex;
+      align-self: flex-end;
+
+      .nav_el {
+        color: $dark-grey;
+        font-size: 18px;
+        padding: 21px 15px;
+        transition: 0.2s;
+        border: 0.75px solid white;
+        cursor: pointer;
+
+
+      }
+
+      .nav_el:hover {
+        border: 0.75px solid $dark-grey;
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  .LogOut_container {
+    margin-top: 123px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 503px;
+
+    .title {
+      text-align: center;
+      font-size: 40px;
+      color: $dark-grey;
+    }
+
+    .deco {
+      margin-top: 25px;
+      height: 33px;
+      width: 253px;
+      background-image: url("../../assets/Decoration.svg");
+      margin-bottom: 35px;
+    }
+
+
+    .btn {
+      cursor: pointer;
+      text-decoration: none;
+      color: $dark-grey;
+      font-size: 18px;
+      padding: 13px 15px;
+      transition: 0.2s;
+      border: 0.75px solid $dark-grey;
+    }
+    .btn:hover {
+      border: 0.75px solid $dark-grey;
+      transform: scale(1.05);
+    }
+  }
+
+
+}

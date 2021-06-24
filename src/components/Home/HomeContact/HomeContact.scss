@@ -1,0 +1,103 @@
+@import "src/scss/main";
+
+.HomeContact {
+  .background {
+    height: 110vh;
+    width: 100%;
+    background-image: url("../../../assets/Background-Contact-Form.jpg");
+    opacity: 0.6;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+
+  }
+  position: relative;
+
+    .content {
+      width: 30%;
+      position: absolute;
+      right: 100px;
+      top: 250px;
+      text-align: center;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      z-index: 999;
+      .title {
+        font-size: 38px;
+        color: $dark-grey;
+        margin-bottom: 26px;
+      }
+      .deco {
+        height: 33px;
+        width: 253px;
+        background-image: url("../../../assets/Decoration.svg");
+        margin-bottom: 55px;
+      }
+      .inputs_row {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+      .input {
+        display: flex;
+        flex-direction: column;
+        .label {
+          text-align: left;
+          color: $dark-grey;
+          font-size: 16px;
+          font-weight: 600;
+          margin-bottom: 12px;
+        }
+        .inputText {
+          width: 230px;
+          background: none;
+          border: none;
+          border-bottom: 1px solid grey;
+        }
+        .inputText::placeholder {
+          color: #535353
+        }
+        .inputText.error {
+          border-bottom: 1px solid red;
+
+        }
+        small {
+          text-align: left;
+          margin-top: 5px;
+          color: red;
+          font-weight: 700;
+        }
+        textarea {
+          background: none;
+          border: none;
+          border-bottom: 1px solid grey;
+          width: 100%;
+          height: 100px;
+          resize: none;
+        }
+        textarea.error {
+          border-bottom: 1px solid red;
+        }
+      }
+      .textarea {
+        width: 100%;
+        margin-top: 20px;
+      }
+      button {
+        cursor: pointer;
+        align-self: flex-end;
+        margin-top: 40px;
+        background: none;
+        padding: 13px 50px;
+        border: 0.75px solid $dark-grey;
+        transition: 0.2s;
+
+      }
+      button:hover {
+        transform: scale(1.05);
+      }
+  }
+
+}

@@ -1,0 +1,70 @@
+@import "src/scss/main";
+
+
+.Local {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .content_desc {
+    text-align: center;
+    font-size: 22px;
+    color: $dark-grey;
+    width: 640px;
+    margin-bottom: 66px;
+  }
+  .list {
+    width: 1344px;
+    margin-bottom: 63px;
+    .list_el {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #707070;
+      margin-bottom: 34px;
+      .left_side {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 31px;
+        .list_title {
+          font-size: 26px;
+          font-family: $font-alt;
+          font-weight: 300;
+          margin-bottom: 5px;
+        }
+        .desc {
+          font-style: italic;
+          font-size: 18px;
+          font-family: $font-alt;
+          font-weight: 300;
+        }
+      }
+      .right_side {
+        font-size: 18px;
+        font-family: $font-alt;
+        font-weight: 300;
+        margin-bottom: 31px;
+        color: $dark-grey;
+      }
+    }
+  }
+  .pages {
+    display: flex;
+    gap: 10px;
+    .page {
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 13px 15px;
+      font-size: 18px;
+      color: $dark-grey;
+      border: 0.75px solid white;
+    }
+    .page:hover {
+      border: 0.75px solid #707070;
+
+    }
+  }
+}
+

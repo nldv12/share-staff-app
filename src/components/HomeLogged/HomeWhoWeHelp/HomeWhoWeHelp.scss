@@ -1,0 +1,56 @@
+@import "src/scss/main";
+
+.HomeWhoWeHelp {
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .title {
+      margin-top: 70px;
+      margin-bottom: 25px;
+      font-size: 38px;
+      color: $dark-grey;
+    }
+    .deco {
+      height: 33px;
+      width: 253px;
+      background-image: url("../../../assets/Decoration.svg");
+      margin-bottom: 52px;
+    }
+    .who {
+      width: 800px;
+      justify-content: space-between;
+      align-items: center;
+      display: flex;
+      margin-bottom: 68px;
+
+      .who_el {
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 208px;
+        height: 79px;
+        font-size: 24px;
+        color: $dark-grey;
+        border: 0.75px solid white;
+      }
+      .who_el:hover {
+        border: 0.75px solid $dark-grey;
+      }
+      .who_el1 {
+        border: 0.75px solid $dark-grey;
+      }
+      .who_el2 {
+        border: 0.75px solid $dark-grey;
+      }
+      .who_el3 {
+        border: 0.75px solid $dark-grey;
+      }
+
+    }
+
+  }
+}
