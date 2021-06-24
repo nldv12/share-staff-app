@@ -29,7 +29,7 @@ export const HomeHeader = () => {
                     </div>
                 </div>
                 <div className={"Home_content"}>
-                <div className={"Home_title"}>Zacznij pomagaćcccccc! <span>Oddaj niechciane rzeczy w zaufane ręce </span> </div>
+                <div className={"Home_title"}>Zacznij pomagać! <span>Oddaj niechciane rzeczy w zaufane ręce </span> </div>
                 <div className={"Home_title_deco"}> </div>
                 <div className={"Home_title_bottons"}>
                     <Link to="/Login" className={"Home_title_single_botton"}>Oddaj <span>rzeczy</span></Link>
