@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/share-staff-app/static/css/main.d678aac0.chunk.css",
+    "main.js": "/share-staff-app/static/js/main.ef9c30bd.chunk.js",
+    "main.js.map": "/share-staff-app/static/js/main.ef9c30bd.chunk.js.map",
+    "runtime-main.js": "/share-staff-app/static/js/runtime-main.e380205d.js",
+    "runtime-main.js.map": "/share-staff-app/static/js/runtime-main.e380205d.js.map",
+    "static/css/2.70c372c2.chunk.css": "/share-staff-app/static/css/2.70c372c2.chunk.css",
+    "static/js/2.79700aa1.chunk.js": "/share-staff-app/static/js/2.79700aa1.chunk.js",
+    "static/js/2.79700aa1.chunk.js.map": "/share-staff-app/static/js/2.79700aa1.chunk.js.map",
+    "static/js/3.62ee5c85.chunk.js": "/share-staff-app/static/js/3.62ee5c85.chunk.js",
+    "static/js/3.62ee5c85.chunk.js.map": "/share-staff-app/static/js/3.62ee5c85.chunk.js.map",
+    "index.html": "/share-staff-app/index.html",
+    "static/css/2.70c372c2.chunk.css.map": "/share-staff-app/static/css/2.70c372c2.chunk.css.map",
+    "static/css/main.d678aac0.chunk.css.map": "/share-staff-app/static/css/main.d678aac0.chunk.css.map",
+    "static/js/2.79700aa1.chunk.js.LICENSE.txt": "/share-staff-app/static/js/2.79700aa1.chunk.js.LICENSE.txt",
+    "static/media/HomeStatistics.scss": "/share-staff-app/static/media/3 Columns Background@2x.8ac46674.png",
+    "static/media/HomeContact.scss": "/share-staff-app/static/media/Background-Contact-Form.655c5442.jpg",
+    "static/media/OddajRzeczy.scss": "/share-staff-app/static/media/Icon-4.f1b3fb6d.svg",
+    "static/media/LogOut.scss": "/share-staff-app/static/media/Decoration.aad75271.svg",
+    "static/media/OddajHeader.scss": "/share-staff-app/static/media/Form-Hero-Image.75cd7726.jpg",
+    "static/media/HomeHeader.scss": "/share-staff-app/static/media/Home-Hero-Image.0c4f237f.jpg",
+    "static/media/HomeSteps.scss": "/share-staff-app/static/media/Icon-3.564c1731.svg",
+    "static/media/HomeAboutUs.scss": "/share-staff-app/static/media/Signature.8f2a001d.svg",
+    "static/media/logo.bd3d092a.svg": "/share-staff-app/static/media/logo.bd3d092a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e380205d.js",
+    "static/css/2.70c372c2.chunk.css",
+    "static/js/2.79700aa1.chunk.js",
+    "static/css/main.d678aac0.chunk.css",
+    "static/js/main.ef9c30bd.chunk.js"
+  ]
+}
