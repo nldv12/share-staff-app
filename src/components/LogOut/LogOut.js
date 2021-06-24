@@ -26,7 +26,7 @@ export const LogOut = () => {
             <div className={"LogOut_container"}>
                 <div className={"title"}>Wylogowanie nastąpiło pomyślnie!</div>
                 <div className={"deco"}></div>
-                    <Link to="/" className={"btn"}>Strona główna</Link>
+                    <Link to="/share-staff-app" className={"btn"}>Strona główna</Link>
 
 
 
