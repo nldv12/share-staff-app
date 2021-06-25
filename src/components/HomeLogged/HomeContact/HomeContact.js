@@ -83,7 +83,7 @@ export const HomeContact = ({user}) => {
                     </div>
                     <div className={"input"}>
                         <div className={"label"}>Wpisz swój email</div>
-                        <input value={user.email} onChange={e => setEmail(e.target.value)}
+                        <input onChange={e => setEmail(e.target.value)}
                                className={emailErr ? "inputText error" : "inputText"} type="email" placeholder={"krzysztof@mail.com"} name={"email"}/>
                         <small>{emailErr}</small>
                     </div>

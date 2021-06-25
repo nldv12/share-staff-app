@@ -43,7 +43,6 @@
         margin-bottom: 40px;
       }
       .small_title {
-        margin-top: 50px;
         margin-bottom: 20px;
         font-size: 24px;
         font-weight: 600;
@@ -82,6 +81,19 @@
           font-weight: 300;
         }
       }
+      .form_line6 {
+        align-items: center;
+        .desc{
+          align-items: center;
+          font-size: 24px;
+          font-weight: 300;
+          display: flex;
+          .bags {
+            margin-right: 20px;
+          }
+
+        }
+      }
       .last1 {
         margin-bottom: 150px;
       }
@@ -111,6 +123,12 @@
           font-weight: 300;
           padding: 11px 26px;
           border: 0.75px solid $dark-grey;
+          cursor: pointer;
+          transition: 0.2s;
+          user-select: none;
+        }
+        .selected {
+          background-color: $my-yellow;
         }
       }
       .cont_in_cont {
@@ -156,6 +174,11 @@
         }
 
       }
+      .error {
+        color: red;
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
       .buttonts{
         align-self: flex-end;
         display: flex;
@@ -170,6 +193,9 @@
         height: 50px;
         border: 0.75px solid $dark-grey;
       }
+      .step3{
+        margin-top: 50px;
+      }
       .inputText_long {
         margin-bottom: 104px;
         width: 570px;
@@ -178,12 +204,15 @@
         border: 0.75px solid $dark-grey;
       }
       .inputText {
+        padding: 0 10px;
         min-width: 250px;
         height: 40px;
         background: none;
         border: 0.75px solid $dark-grey;
       }
       .inputText_high {
+        resize: none;
+        padding: 10px 10px;
         min-width: 250px;
         height: 123px;
         background: none;

@@ -59,8 +59,7 @@ export const SignUp = (props) => {
 
         if (isError === false) {
             handleSignUp()
-            console.log("uzylem handla")
-            history.push("/user")
+            // console.log("uzylem handla")
         }
 
     }

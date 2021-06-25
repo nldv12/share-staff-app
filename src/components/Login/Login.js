@@ -52,7 +52,7 @@ export const Login = (props) => {
 
         if (ifError === false) {
             handleLogin()
-            console.log("Zalogowano")
+            // console.log("Zalogowano")
 
         }
 

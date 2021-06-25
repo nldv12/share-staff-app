@@ -1,7 +1,19 @@
-import React from "react";
+import React, {useState} from "react";
 
 
-export const Step2 = ({setStep}) => {
+export const Step2 = ({setNrOfBags, setStep}) => {
+    const [myBags, setMyBags] = useState(1);
+
+
+
+    const handleClick = () => {
+        setNrOfBags(myBags)
+        setStep("3")
+    }
+
+
+
+
 
     return (
         <div className={"step"}>
@@ -15,7 +27,7 @@ export const Step2 = ({setStep}) => {
                     <div className="title">Podaj liczbę 60l worków, w które spakowałeś/aś rzeczy:</div>
                     <div className="form_line2">
                         <div className="desc">Liczba 60l worków:</div>
-                        <select className={"inputSelect"} name="name">
+                        <select onChange={(e) => setMyBags(e.target.value)} className={"inputSelect"} name="name">
                             <option>1</option>
                             <option>2</option>
                             <option>3</option>
@@ -25,7 +37,7 @@ export const Step2 = ({setStep}) => {
                     </div>
                     <div className="buttonts">
                         <div onClick={()=> setStep("1")} className="btn">Wstecz</div>
-                        <div onClick={()=> setStep("3")} className="btn">Dalej</div>
+                        <div onClick={handleClick} className="btn">Dalej</div>
                     </div>
 
                 </div>
