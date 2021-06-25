@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/share-staff-app/static/css/main.d678aac0.chunk.css",
-    "main.js": "/share-staff-app/static/js/main.d857ae32.chunk.js",
-    "main.js.map": "/share-staff-app/static/js/main.d857ae32.chunk.js.map",
+    "main.css": "/share-staff-app/static/css/main.ebcc2a43.chunk.css",
+    "main.js": "/share-staff-app/static/js/main.f7078698.chunk.js",
+    "main.js.map": "/share-staff-app/static/js/main.f7078698.chunk.js.map",
     "runtime-main.js": "/share-staff-app/static/js/runtime-main.e380205d.js",
     "runtime-main.js.map": "/share-staff-app/static/js/runtime-main.e380205d.js.map",
     "static/css/2.70c372c2.chunk.css": "/share-staff-app/static/css/2.70c372c2.chunk.css",
-    "static/js/2.79700aa1.chunk.js": "/share-staff-app/static/js/2.79700aa1.chunk.js",
-    "static/js/2.79700aa1.chunk.js.map": "/share-staff-app/static/js/2.79700aa1.chunk.js.map",
+    "static/js/2.1e0f9675.chunk.js": "/share-staff-app/static/js/2.1e0f9675.chunk.js",
+    "static/js/2.1e0f9675.chunk.js.map": "/share-staff-app/static/js/2.1e0f9675.chunk.js.map",
     "static/js/3.62ee5c85.chunk.js": "/share-staff-app/static/js/3.62ee5c85.chunk.js",
     "static/js/3.62ee5c85.chunk.js.map": "/share-staff-app/static/js/3.62ee5c85.chunk.js.map",
     "index.html": "/share-staff-app/index.html",
     "static/css/2.70c372c2.chunk.css.map": "/share-staff-app/static/css/2.70c372c2.chunk.css.map",
-    "static/css/main.d678aac0.chunk.css.map": "/share-staff-app/static/css/main.d678aac0.chunk.css.map",
-    "static/js/2.79700aa1.chunk.js.LICENSE.txt": "/share-staff-app/static/js/2.79700aa1.chunk.js.LICENSE.txt",
+    "static/css/main.ebcc2a43.chunk.css.map": "/share-staff-app/static/css/main.ebcc2a43.chunk.css.map",
+    "static/js/2.1e0f9675.chunk.js.LICENSE.txt": "/share-staff-app/static/js/2.1e0f9675.chunk.js.LICENSE.txt",
     "static/media/HomeStatistics.scss": "/share-staff-app/static/media/3 Columns Background@2x.8ac46674.png",
     "static/media/HomeContact.scss": "/share-staff-app/static/media/Background-Contact-Form.655c5442.jpg",
     "static/media/OddajRzeczy.scss": "/share-staff-app/static/media/Icon-4.f1b3fb6d.svg",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.e380205d.js",
     "static/css/2.70c372c2.chunk.css",
-    "static/js/2.79700aa1.chunk.js",
-    "static/css/main.d678aac0.chunk.css",
-    "static/js/main.d857ae32.chunk.js"
+    "static/js/2.1e0f9675.chunk.js",
+    "static/css/main.ebcc2a43.chunk.css",
+    "static/js/main.f7078698.chunk.js"
   ]
 }
