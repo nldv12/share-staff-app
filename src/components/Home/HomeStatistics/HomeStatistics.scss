@@ -8,11 +8,11 @@
   background-size: cover  ;
 }
 .HomeStatistics_container {
-  justify-content: space-between;
+  justify-content: center;
   display: flex;
-  margin: 0 150px;
+  margin: 0 50px;
   .single_statistic {
-    margin-top: 50px;
+    margin: 50px 16px;
     height: 256px;
     width: 334px;
     text-align: center;
@@ -40,4 +40,20 @@
     font-size: 16px;
     font-weight: 300;
   }
+}
+
+@media (max-width: 620px) {
+  .HomeStatistics {
+    height: 100vh;
+    width: auto;
+    .HomeStatistics_container {
+      padding-top: 50px;
+      align-items: center;
+      flex-direction: column;
+      .single_statistic {
+        margin: 0;
+      }
+    }
+  }
+
 }

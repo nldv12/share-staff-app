@@ -1,29 +1,43 @@
 @import "src/scss/main";
 
 .HomeContact {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   .background {
+    background-image: url("../../../assets/Background-Contact-Form.jpg");
     height: 110vh;
     width: 100%;
-    background-image: url("../../../assets/Background-Contact-Form.jpg");
-    opacity: 0.6;
+    //opacity: 0.6;
+    //background-size: cover;
+    //background-position: right;
+    //background-repeat: no-repeat;
+    //z-index: 1;
+    //display: flex;
+    position: absolute;
+    right: 0;
+    background-position: right;
     background-size: cover;
-    background-repeat: no-repeat;
-    z-index: 1;
+    //width: 100vw;
+    //height: 100vh;
+    z-index: -1;
+    opacity: 50%;
+
 
   }
   position: relative;
 
     .content {
-      width: 30%;
-      position: absolute;
-      right: 100px;
-      top: 250px;
-      text-align: center;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
       display: flex;
-      z-index: 999;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 100px;
+      .content_form {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+      }
       .title {
         font-size: 38px;
         color: $dark-grey;
@@ -98,6 +112,44 @@
       button:hover {
         transform: scale(1.05);
       }
+
+
   }
+
+
+}
+.footer{
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  margin-left: -50px;
+  .container {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .two_pictos {
+      display: flex;
+      .fb {
+        background-image: url("../../../assets/Facebook.svg");
+        height: 30px;
+        width: 30px;
+      }
+      .ig {
+        background-image: url("../../../assets/Instagram.svg");
+        height: 30px;
+        width: 30px;
+        margin-left: 20px;
+      }
+    }
+    .copy {
+      display: flex;
+      font-size: 18px;
+    }
+  }
+
 
 }

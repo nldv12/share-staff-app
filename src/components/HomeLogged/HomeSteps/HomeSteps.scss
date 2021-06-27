@@ -1,109 +1,109 @@
-@import "src/scss/main";
-
-.HomeSteps {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  .first_div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    .first_title {
-      margin-top: 55px;
-      margin-bottom: 25px;
-      font-size: 38px;
-      color: $dark-grey;
-    }
-    .first_deco {
-      height: 33px;
-      width: 253px;
-      background-image: url("../../../assets/Decoration.svg");
-    }
-  }
-  .sec_div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: $almost-white;
-    height: 325px;
-    width: 100%;
-    .sec_div_elements {
-      width: 70%;
-      display: flex;
-      justify-content: space-between;
-    }
-    .sec_div_el {
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      .picto {
-        height: 83px;
-        width: 83px;
-        margin-bottom: 11px;
-      }
-      .picto1 {
-        background-image: url("../../../assets/Icon-1.svg");
-      }
-      .picto2 {
-        background-image: url("../../../assets/Icon-2.svg");
-      }
-      .picto3 {
-        background-image: url("../../../assets/Icon-3.svg");
-      }
-      .picto4 {
-        background-image: url("../../../assets/Icon-4.svg");
-      }
-      .title {
-        font-size: 18px;
-        color: $dark-grey;
-        margin-bottom: 11px;
-        width: 130px;
-
-      }
-      .line {
-        width: 70px;
-        border: 1px solid #707070;
-        margin-bottom: 11px;
-
-      }
-      .desc {
-        font-size: 16px;
-        color: $dark-grey;
-        width: 148px;
-      }
-    }
-  }
-  .third_div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 235px;
-    width: 100%;
-    .button {
-      text-decoration: none;
-      color: $dark-grey;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      font-weight: 300;
-      width: 310px;
-      height: 120px;
-      font-size: 36px;
-      padding: 13px 0;
-      border: 0.75px solid $dark-grey;
-      transition: 0.2s;
-
-    }
-    .button:hover {
-      transform: scale(1.05);
-
-    }
-  }
-
-}
+//@import "src/scss/main";
+//
+//.HomeSteps {
+//  display: flex;
+//  flex-direction: column;
+//  justify-content: center;
+//  align-items: center;
+//  .first_div {
+//    display: flex;
+//    flex-direction: column;
+//    justify-content: center;
+//    align-items: center;
+//    height: 200px;
+//    .first_title {
+//      margin-top: 55px;
+//      margin-bottom: 25px;
+//      font-size: 38px;
+//      color: $dark-grey;
+//    }
+//    .first_deco {
+//      height: 33px;
+//      width: 253px;
+//      background-image: url("../../../assets/Decoration.svg");
+//    }
+//  }
+//  .sec_div {
+//    display: flex;
+//    justify-content: center;
+//    align-items: center;
+//    background-color: $almost-white;
+//    height: 325px;
+//    width: 100%;
+//    .sec_div_elements {
+//      width: 70%;
+//      display: flex;
+//      justify-content: space-between;
+//    }
+//    .sec_div_el {
+//      text-align: center;
+//      display: flex;
+//      flex-direction: column;
+//      justify-content: center;
+//      align-items: center;
+//      .picto {
+//        height: 83px;
+//        width: 83px;
+//        margin-bottom: 11px;
+//      }
+//      .picto1 {
+//        background-image: url("../../../assets/Icon-1.svg");
+//      }
+//      .picto2 {
+//        background-image: url("../../../assets/Icon-2.svg");
+//      }
+//      .picto3 {
+//        background-image: url("../../../assets/Icon-3.svg");
+//      }
+//      .picto4 {
+//        background-image: url("../../../assets/Icon-4.svg");
+//      }
+//      .title {
+//        font-size: 18px;
+//        color: $dark-grey;
+//        margin-bottom: 11px;
+//        width: 130px;
+//
+//      }
+//      .line {
+//        width: 70px;
+//        border: 1px solid #707070;
+//        margin-bottom: 11px;
+//
+//      }
+//      .desc {
+//        font-size: 16px;
+//        color: $dark-grey;
+//        width: 148px;
+//      }
+//    }
+//  }
+//  .third_div {
+//    display: flex;
+//    justify-content: center;
+//    align-items: center;
+//    height: 235px;
+//    width: 100%;
+//    .button {
+//      text-decoration: none;
+//      color: $dark-grey;
+//      display: flex;
+//      flex-direction: column;
+//      justify-content: center;
+//      align-items: center;
+//      font-weight: 300;
+//      width: 310px;
+//      height: 120px;
+//      font-size: 36px;
+//      padding: 13px 0;
+//      border: 0.75px solid $dark-grey;
+//      transition: 0.2s;
+//
+//    }
+//    .button:hover {
+//      transform: scale(1.05);
+//
+//    }
+//  }
+//
+//}

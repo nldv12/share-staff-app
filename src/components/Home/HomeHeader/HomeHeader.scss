@@ -12,8 +12,9 @@
     background-size: cover;
   }
   .right_side {
+    margin-right: 50px;
     height: 100vh;
-    width: 50%;
+    //width: 50%;
     .Home_content {
       display: flex;
       flex-direction: column;
@@ -39,18 +40,19 @@
   .Home_title_bottons {
     display: flex;
     gap: 20px;
+
   }
   .Home_title_single_botton {
     color: $dark-grey;
     text-decoration: none;
     font-weight: 300;
-    width: 310px;
     display: flex;
     flex-direction: column;
     text-transform: uppercase;
     text-align: center ;
     font-size: 36px;
     padding: 13px 0;
+    width: 260px;
     border: 0.75px solid $dark-grey;
     transition: 0.2s;
 
@@ -61,9 +63,11 @@
   }
 
 
+
+
   .account_nav_container{
     white-space: nowrap;
-    margin-right: 50px;
+    //margin-right: 50px;
     margin-top: 37px;
     display: flex;
     flex-direction: column;
@@ -89,21 +93,72 @@
       display: flex;
       align-self: flex-end;
 
-      .nav_el {
-        color: $dark-grey;
-        font-size: 18px;
-        padding: 21px 15px;
-        transition: 0.2s;
-        border: 0.75px solid white;
-        cursor: pointer;
+        .nav_el {
+          color: $dark-grey;
+          font-size: 18px;
+          padding: 21px 15px;
+          transition: 0.2s;
+          border: 0.75px solid white;
+          cursor: pointer;
+        }
+        .nav_el:hover {
+          border: 0.75px solid $dark-grey;
+          transform: scale(1.05);
+        }
 
 
-      }
-      .nav_el:hover {
-        border: 0.75px solid $dark-grey;
-        transform: scale(1.05);
-      }
+
     }
   }
 
+}
+
+
+
+@media (max-width: 753px) {
+  .HomeHeader {
+  }
+  .left_side {
+    display: none;
+  }
+
+}
+@media (max-width: 620px) {
+  .HomeHeader  {
+    .account_nav_container {
+      display: block;
+      .account {
+        margin-left: 30px;
+      }
+      .nav {
+        display: none;
+      }
+    }
+    .Home_title_bottons {
+      flex-direction: column;
+      margin-left: 30px;
+      gap: 50px;
+      .Home_title_single_botton {
+        font-size: 30px;
+      }
+    }
+    .Home_title {
+      margin-top: 50px;
+      font-size: 30px;
+      margin-left: 30px;
+    }
+    .Home_title_deco {
+      margin-left: 30px;
+    }
+
+
+  }
+
+}
+@media (min-width: 1653px) {
+  .HomeHeader{
+    .right_side{
+      width: 50%;
+    }
+  }
 }

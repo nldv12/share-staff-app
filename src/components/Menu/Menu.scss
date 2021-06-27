@@ -1,0 +1,123 @@
+@import "src/scss/main";
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+//.container {
+//  width: 100%;
+//  height: 100vh;
+//}
+.Menu {
+  display: none;
+}
+
+.hamburger-menu {
+  width: 35px;
+  height: 30px;
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
+  z-index: 9999;
+  .line {
+    width: 100%;
+    height: 4px;
+    border-radius: 10px;
+    background-color: $my-yellow;
+    transition: all 0.5s;
+
+  }
+}
+
+
+
+
+
+.line-1 {
+  transform: rotateZ(-405deg) translate(-8px, 6px);
+}
+
+.line-2 {
+  opacity: 0;
+  transition: 0.1s;
+
+}
+
+.line-3 {
+  transform: rotateZ(405deg) translate(-8px, -6px);
+}
+
+
+.showNavbar {
+  width: 300px;
+  height: 100%;
+  background-color: rgba(226, 226, 226, 0.97);
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  z-index: 9998;
+  text-decoration: none;
+  list-style-type: none;
+
+
+
+}
+.hideNavbar {
+  width: 300px;
+  height: 100%;
+  background-color: rgba(29, 20, 47, 0.1);
+  position: fixed;
+  top: 0;
+  right: -300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  z-index: 9998;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style-type: none;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+  display: block;
+  text-align: center;
+  letter-spacing: 1px;
+  transition: 0.5s;
+  padding: 28px 40px;
+}
+.nav-link:active {
+  background-color: rebeccapurple;
+  transform: scale(0.9);
+  text-decoration: none;
+
+}
+.nav_item {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+
+@media (max-width: 620px) {
+  .Menu {
+    display: block;
+  }
+
+}
+

@@ -21,11 +21,16 @@ export const HomeHeader = () => {
                         {/*<div className={"account_el"}>Załóż konto</div>*/}
                     </div>
                     <div className={"nav"}>
-                        <LinkScroll to="HomeHeader" smooth={true} className={"nav_el"}>Start</LinkScroll>
-                        <LinkScroll to="HomeSteps" smooth={true} className={"nav_el"}>O co chodzi?</LinkScroll>
-                        <LinkScroll to="HomeAboutUs" smooth={true} className={"nav_el"}>O nas</LinkScroll>
-                        <LinkScroll to="HomeWhoWeHelp" smooth={true} className={"nav_el"}>Fundacja i organizacje</LinkScroll>
-                        <LinkScroll to="HomeContact" smooth={true} className={"nav_el"}>Kontakt</LinkScroll>
+
+                            <LinkScroll to="HomeHeader" smooth={true} className={"nav_el"}>Start</LinkScroll>
+                            <LinkScroll to="HomeSteps" smooth={true} className={"nav_el"}>O co chodzi?</LinkScroll>
+                            <LinkScroll to="HomeAboutUs" smooth={true} className={"nav_el"}>O nas</LinkScroll>
+
+
+                            <LinkScroll to="HomeWhoWeHelp" smooth={true} className={"nav_el"}>Fundacja i
+                                organizacje</LinkScroll>
+                            <LinkScroll to="HomeContact" smooth={true} className={"nav_el"}>Kontakt</LinkScroll>
+
                     </div>
                 </div>
                 <div className={"Home_content"}>

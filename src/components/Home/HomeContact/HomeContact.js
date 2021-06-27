@@ -67,39 +67,52 @@ export const HomeContact = () => {
     }
 
     return (
-        <div className={"HomeContact"}>
-            <div className={"background"}>
-            </div>
-            <div className={"content"}>
-                <div className={"title"}>Skontaktuj się z nami</div>
-                <div className={"deco"}></div>
-                <div className={"inputs_row"}>
-                    <div className={"input"}>
-                        <div className={"label"}>Wpisz swoje imię</div>
-                        <input value={name} onChange={e => setName(e.target.value)}
-                               className={nameErr ? "inputText error" : "inputText"} type="text"
-                               placeholder={"Krzysztof"} name={"name"}/>
-                        <small>{nameErr}</small>
-                    </div>
-                    <div className={"input"}>
-                        <div className={"label"}>Wpisz swój email</div>
-                        <input value={email} onChange={e => setEmail(e.target.value)}
-                               className={emailErr ? "inputText error" : "inputText"} type="email" placeholder={"krzysztof@mail.com"} name={"email"}/>
-                        <small>{emailErr}</small>
-                    </div>
-                </div>
-                <div className={"input textarea"}>
-                    <div className={"label"}>Wpisz swoją wiadomość</div>
-                    <textarea value={message} onChange={e => setMessage(e.target.value)} className={messageErr ? "error" : ""}
-                              placeholder={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."}>
+        <>
+            <div className={"HomeContact"}>
+                <div className={"background"}/>
+                <div className={"content"}>
+                    <div className={"title"}>Skontaktuj się z nami</div>
+                    <div className={"deco"}></div>
+                    <div className="content_form">
+                        <div className={"inputs_row"}>
+                            <div className={"input"}>
+                                <div className={"label"}>Wpisz swoje imię</div>
+                                <input value={name} onChange={e => setName(e.target.value)}
+                                       className={nameErr ? "inputText error" : "inputText"} type="text"
+                                       placeholder={"Krzysztof"} name={"name"}/>
+                                <small>{nameErr}</small>
+                            </div>
+                            <div className={"input"}>
+                                <div className={"label"}>Wpisz swój email</div>
+                                <input value={email} onChange={e => setEmail(e.target.value)}
+                                       className={emailErr ? "inputText error" : "inputText"} type="email"
+                                       placeholder={"krzysztof@mail.com"} name={"email"}/>
+                                <small>{emailErr}</small>
+                            </div>
+                        </div>
+                        <div className={"input textarea"}>
+                            <div className={"label"}>Wpisz swoją wiadomość</div>
+                            <textarea value={message} onChange={e => setMessage(e.target.value)}
+                                      className={messageErr ? "error" : ""}
+                                      placeholder={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."}>
                 </textarea>
-                    <small>{messageErr}</small>
+                            <small>{messageErr}</small>
 
+                        </div>
+                        <button onClick={validation}>Wyślij</button>
+                    </div>
                 </div>
-                <button onClick={validation}>Wyślij</button>
-
             </div>
-        </div>
+            <div className="footer">
+                <div className="container">
+                <div className="copy">Copyright by Coders Lab</div>
+                <div className="two_pictos">
+                    <div className="fb"></div>
+                    <div className="ig"></div>
+                </div>
+                </div>
+            </div>
 
+        </>
     )
 }

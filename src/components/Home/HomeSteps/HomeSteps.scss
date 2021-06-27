@@ -107,3 +107,18 @@
   }
 
 }
+
+
+@media (max-width: 740px) {
+  .HomeSteps {
+
+    .sec_div {
+      height: 100vh;
+      .sec_div_elements {
+        flex-direction: column;
+        gap: 40px;
+      }
+    }
+  }
+
+}

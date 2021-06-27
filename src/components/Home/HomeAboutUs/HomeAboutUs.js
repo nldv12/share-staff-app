@@ -15,7 +15,6 @@ export const HomeAboutUs = () => {
                 </div>
             </div>
             <div className={"right_side"}></div>
-
         </div>
 
     )

@@ -5,6 +5,7 @@ import {Route, Switch, useHistory} from "react-router-dom";
 import {Home} from "./components/Home/Home";
 import {Home as HomeLoged} from "./components/HomeLogged/Home";
 import {Login} from "./components/Login/Login";
+import {Menu} from "./components/Menu/Menu";
 import {OddajRzeczy} from "./components/OddajRzeczy/OddajRzeczy";
 import {SignUp} from "./components/SignUp/SignUp";
 import {LogOut} from "./components/LogOut/LogOut";
@@ -109,6 +110,7 @@ function App() {
 
     return (
         <div className="App">
+            <Menu/>
             <Switch>
                 <Route path="/share-staff-app" exact component={Home}/>
                 <Route exact path="/user">
