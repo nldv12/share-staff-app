@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/share-staff-app/static/css/main.ebcc2a43.chunk.css",
-    "main.js": "/share-staff-app/static/js/main.f7078698.chunk.js",
-    "main.js.map": "/share-staff-app/static/js/main.f7078698.chunk.js.map",
-    "runtime-main.js": "/share-staff-app/static/js/runtime-main.e380205d.js",
-    "runtime-main.js.map": "/share-staff-app/static/js/runtime-main.e380205d.js.map",
+    "main.css": "/share-staff-app/static/css/main.753a0303.chunk.css",
+    "main.js": "/share-staff-app/static/js/main.1d1e2552.chunk.js",
+    "main.js.map": "/share-staff-app/static/js/main.1d1e2552.chunk.js.map",
+    "runtime-main.js": "/share-staff-app/static/js/runtime-main.b2547276.js",
+    "runtime-main.js.map": "/share-staff-app/static/js/runtime-main.b2547276.js.map",
     "static/css/2.70c372c2.chunk.css": "/share-staff-app/static/css/2.70c372c2.chunk.css",
-    "static/js/2.1e0f9675.chunk.js": "/share-staff-app/static/js/2.1e0f9675.chunk.js",
-    "static/js/2.1e0f9675.chunk.js.map": "/share-staff-app/static/js/2.1e0f9675.chunk.js.map",
-    "static/js/3.62ee5c85.chunk.js": "/share-staff-app/static/js/3.62ee5c85.chunk.js",
-    "static/js/3.62ee5c85.chunk.js.map": "/share-staff-app/static/js/3.62ee5c85.chunk.js.map",
+    "static/js/2.ba262d1c.chunk.js": "/share-staff-app/static/js/2.ba262d1c.chunk.js",
+    "static/js/2.ba262d1c.chunk.js.map": "/share-staff-app/static/js/2.ba262d1c.chunk.js.map",
+    "static/js/3.c4f92f01.chunk.js": "/share-staff-app/static/js/3.c4f92f01.chunk.js",
+    "static/js/3.c4f92f01.chunk.js.map": "/share-staff-app/static/js/3.c4f92f01.chunk.js.map",
     "index.html": "/share-staff-app/index.html",
     "static/css/2.70c372c2.chunk.css.map": "/share-staff-app/static/css/2.70c372c2.chunk.css.map",
-    "static/css/main.ebcc2a43.chunk.css.map": "/share-staff-app/static/css/main.ebcc2a43.chunk.css.map",
-    "static/js/2.1e0f9675.chunk.js.LICENSE.txt": "/share-staff-app/static/js/2.1e0f9675.chunk.js.LICENSE.txt",
+    "static/css/main.753a0303.chunk.css.map": "/share-staff-app/static/css/main.753a0303.chunk.css.map",
+    "static/js/2.ba262d1c.chunk.js.LICENSE.txt": "/share-staff-app/static/js/2.ba262d1c.chunk.js.LICENSE.txt",
     "static/media/HomeStatistics.scss": "/share-staff-app/static/media/3 Columns Background@2x.8ac46674.png",
-    "static/media/HomeContact.scss": "/share-staff-app/static/media/Background-Contact-Form.655c5442.jpg",
+    "static/media/HomeContact.scss": "/share-staff-app/static/media/Instagram.5b663cf3.svg",
     "static/media/OddajRzeczy.scss": "/share-staff-app/static/media/Icon-4.f1b3fb6d.svg",
     "static/media/LogOut.scss": "/share-staff-app/static/media/Decoration.aad75271.svg",
     "static/media/OddajHeader.scss": "/share-staff-app/static/media/Form-Hero-Image.75cd7726.jpg",
@@ -25,10 +25,10 @@
     "static/media/logo.bd3d092a.svg": "/share-staff-app/static/media/logo.bd3d092a.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e380205d.js",
+    "static/js/runtime-main.b2547276.js",
     "static/css/2.70c372c2.chunk.css",
-    "static/js/2.1e0f9675.chunk.js",
-    "static/css/main.ebcc2a43.chunk.css",
-    "static/js/main.f7078698.chunk.js"
+    "static/js/2.ba262d1c.chunk.js",
+    "static/css/main.753a0303.chunk.css",
+    "static/js/main.1d1e2552.chunk.js"
   ]
 }
