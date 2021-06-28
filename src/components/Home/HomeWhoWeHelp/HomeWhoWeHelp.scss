@@ -1,13 +1,19 @@
 @import "src/scss/main";
 
 .HomeWhoWeHelp {
-  margin-bottom: 60px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   .content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    width: 90%;
+    height: 100%;
+
     .title {
+      text-align: center;
       margin-top: 70px;
       margin-bottom: 25px;
       font-size: 38px;
@@ -20,11 +26,10 @@
       margin-bottom: 52px;
     }
     .who {
-      width: 800px;
-      justify-content: space-between;
-      align-items: center;
       display: flex;
-      margin-bottom: 68px;
+      align-items: center;
+      width: 70%;
+      justify-content: space-between;
 
       .who_el {
         cursor: pointer;
@@ -50,8 +55,145 @@
       .who_el3 {
         border: 0.75px solid $dark-grey;
       }
-
     }
+    .org {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .content_desc {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 22px;
+        color: $dark-grey;
+        width: 640px;
+        margin-bottom: 66px;
+      }
+      .page {
+        width: 100%;
+        .list {
+          margin-bottom: 63px;
+          width: 100%;
+          .list_el {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #707070;
+            margin-bottom: 34px;
+            .left_side {
+              display: flex;
+              flex-direction: column;
+              margin-bottom: 31px;
+              .list_title {
+                font-size: 26px;
+                font-family: $font-alt;
+                font-weight: 300;
+                margin-bottom: 5px;
+              }
+              .desc {
+                font-style: italic;
+                font-size: 18px;
+                font-family: $font-alt;
+                font-weight: 300;
+              }
+            }
+            .right_side {
+              text-align: right;
+              margin-left: 30px;
+              font-size: 18px;
+              font-family: $font-alt;
+              font-weight: 300;
+              margin-bottom: 31px;
+              color: $dark-grey;
+            }
+          }
+        }
+      }
+      .pages {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 50px;
+        .page {
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          padding: 13px 15px;
+          font-size: 18px;
+          color: $dark-grey;
+          border: 0.75px solid white;
+        }
+        .page:hover {
+          border: 0.75px solid #707070;
+        }
+        .page1 {
+          border: 0.75px solid #707070;
+        }
+        .page2 {
+          border: 0.75px solid #707070;
+        }
+        .page3 {
+          border: 0.75px solid #707070;
+        }
+      }
+    }
+  }
+}
 
+
+
+
+@media (max-width: 873px) {
+  .HomeWhoWeHelp {
+    .content {
+      .deco {
+        margin-bottom: 0;
+      }
+      .who {
+        flex-direction: column;
+        margin-bottom: 20px;
+        .who_el {
+          margin: 10px 0;
+        }
+      }
+      .org {
+        .content_desc {
+          margin-top: 10px;
+          width: 100%;
+        }
+        .pages {
+        }
+      }
+    }
+  }
+
+
+
+}
+@media (max-width: 1069px) {
+  .HomeWhoWeHelp .content .who {
+    width: 90%;
+  }
+
+}
+
+@media (max-width: 483px) {
+  .HomeWhoWeHelp {
+    margin-bottom: 600px;
+  }
+}
+@media (max-width: 383px) {
+  .HomeWhoWeHelp {
+    margin-bottom: 750px;
+  }
+}
+@media (max-width: 345px) {
+  .HomeWhoWeHelp {
+    margin-bottom: 800px;
+  }
+}
+@media (max-width: 321px) {
+  .HomeWhoWeHelp {
+    margin-bottom: 850px;
   }
 }

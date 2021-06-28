@@ -24,9 +24,10 @@
     height: 883px;
     background-image: url("../../assets/Background-Form.jpg");
     background-repeat: no-repeat;
-    background-position: right ;
+    background-position: left ;
     background-size: cover;
     position: relative;
+
     .container{
       position: absolute;
       margin-top: 36px;
@@ -56,7 +57,7 @@
           appearance: none;
           margin-right: 30px;
           height: 40px;
-          width: 40px;
+          min-width: 40px;
           border: 0.75px solid $dark-grey;
         }
         .picto {
@@ -256,6 +257,51 @@
       background-image: url("../../assets/Decoration.svg");
     }
   }
-
+}
+@media (max-width: 1051px) {
+  .step {
+    .yellow_guy {
+      .title {
+        margin-left: 50px;
+      }
+      .title_desc {
+        margin-left: 50px;
+        margin-right: 20px ;
+      }
+    }
+    .form {
+      .container {
+        margin-left: 50px;
+      }
+    }
+  }
+}
+@media (max-width: 455px) {
+  .step {
+    .yellow_guy {
+      .title {
+        margin-left: 25px;
+        font-size: 28px;
+      }
+      .title_desc {
+        margin-left: 25px;
+        font-size: 19px;
+      }
+    }
+    .form {
+      .container {
+        margin-left: 25px;
+        .title {
+          width: 300px;
+          margin-right: 20px;
+          font-size: 28px;
+        }
+        .form_line2 {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      }
+    }
+  }
 
 }

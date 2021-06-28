@@ -62,9 +62,6 @@
 
   }
 
-
-
-
   .account_nav_container{
     white-space: nowrap;
     //margin-right: 50px;
@@ -117,13 +114,14 @@
 
 @media (max-width: 753px) {
   .HomeHeader {
-  }
-  .left_side {
-    display: none;
+    .left_side {
+      display: none;
+    }
   }
 
+
 }
-@media (max-width: 620px) {
+@media (max-width: 660px) {
   .HomeHeader  {
     .account_nav_container {
       display: block;
@@ -150,10 +148,7 @@
     .Home_title_deco {
       margin-left: 30px;
     }
-
-
   }
-
 }
 @media (min-width: 1653px) {
   .HomeHeader{

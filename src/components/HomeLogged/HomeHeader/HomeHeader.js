@@ -12,29 +12,25 @@ export const HomeHeader = ({user, handleLogOut}) => {
 
 
     return (
-        <div className={"HomeHeader_logged"}>
+        <div className={"HomeHeader"}>
             <div className={"left_side"}>
 
             </div>
             <div className={"right_side"}>
                 <div className={"account_nav_container"}>
                     <div className={"account"}>
-                        <div className={"account_el user"}>Cześć {user.email}!</div>
+                        <div className={"user"}>Cześć {user.email}!</div>
                         <Link to="/OddajRzeczy" className={"account_el"}>Oddaj rzeczy</Link>
                         <div onClick={handleLogOut} className={"account_el"}>Wyloguj się</div>
 
                     </div>
                     <div className={"nav"}>
-                        <div>
-                            <LinkScroll to="HomeHeader" smooth={true} className={"nav_el"}>Sgtart</LinkScroll>
+                            <LinkScroll to="HomeHeader" smooth={true} className={"nav_el"}>Start</LinkScroll>
                             <LinkScroll to="HomeSteps" smooth={true} className={"nav_el"}>O co chodzi?</LinkScroll>
                             <LinkScroll to="HomeAboutUs" smooth={true} className={"nav_el"}>O nas</LinkScroll>
-                        </div>
-                        <div>
                             <LinkScroll to="HomeWhoWeHelp" smooth={true} className={"nav_el"}>Fundacja i
                                 organizacje</LinkScroll>
                             <LinkScroll to="HomeContact" smooth={true} className={"nav_el"}>Kontakt</LinkScroll>
-                        </div>
                     </div>
                 </div>
                 <div className={"Home_content"}>

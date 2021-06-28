@@ -1,8 +1,7 @@
 import React, {useState} from "react";
-import "./Fonds.scss"
-import {Page1} from "./page1/page1";
-import {Page2} from "./page2/page2";
-import {Page3} from "./page3/page3";
+import {Page1} from "./page1";
+import {Page2} from "./page2";
+import {Page3} from "./page3";
 
 
 export const Fonds = (props) => {
@@ -20,7 +19,7 @@ export const Fonds = (props) => {
 
     if (page==="1") {
         return (
-            <div className={"Fonds"}>
+            <div className={"Fonds org"}>
                 <div className={"content_desc"}>W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.</div>
                 <Page1/>
                 <div className={"pages"}>
@@ -32,7 +31,7 @@ export const Fonds = (props) => {
         )
     } else if (page==="2") {
         return (
-            <div className={"Fonds"}>
+            <div className={"Fonds org"}>
                 <div className={"content_desc"}>W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.</div>
                 <Page2/>
                 <div className={"pages"}>
@@ -44,7 +43,7 @@ export const Fonds = (props) => {
         )
     } else {
         return (
-            <div className={"Fonds"}>
+            <div className={"Fonds org"}>
                 <div className={"content_desc"}>W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.</div>
                 <Page3/>
                 <div className={"pages"}>

@@ -1,6 +1,7 @@
 @import "src/scss/main";
 
 .HomeContact {
+  //margin-top: 150px;
   height: 100vh;
   display: flex;
   justify-content: flex-end;
@@ -9,22 +10,12 @@
     background-image: url("../../../assets/Background-Contact-Form.jpg");
     height: 110vh;
     width: 100%;
-    //opacity: 0.6;
-    //background-size: cover;
-    //background-position: right;
-    //background-repeat: no-repeat;
-    //z-index: 1;
-    //display: flex;
     position: absolute;
     right: 0;
     background-position: right;
     background-size: cover;
-    //width: 100vw;
-    //height: 100vh;
     z-index: -1;
     opacity: 50%;
-
-
   }
   position: relative;
 
@@ -107,16 +98,11 @@
         padding: 13px 50px;
         border: 0.75px solid $dark-grey;
         transition: 0.2s;
-
       }
       button:hover {
         transform: scale(1.05);
       }
-
-
   }
-
-
 }
 .footer{
   height: 50px;
@@ -150,6 +136,54 @@
       font-size: 18px;
     }
   }
+}
+@media (max-width: 875px) {
+  .HomeContact {
+    .background {
+      display: none;
+    }
+
+    justify-content: center;
+    .content {
+      margin-right: 0;
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  .HomeContact {
+    height: 100%;
+    justify-content: center;
+    .content {
+      margin-right: 0;
+    }
+  }
+}
 
 
+@media (max-width: 578px) {
+  .HomeContact {
+    .content {
+      margin: 0 15px;
+      .title {
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 0 10px;
+      }
+      .content_form {
+        width: 100%;
+        .inputs_row {
+          flex-direction: column;
+          width: 100%;
+
+          .inputText {
+              width: 100%;
+            }
+          textarea {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
 }

@@ -17,8 +17,7 @@ export const HomeHeader = () => {
                     <div className={"account"}>
                         <Link to="/Login" className={"account_el"}>Zaloguj</Link>
                         <Link to="/SignUp" className={"account_el"}>Załóż konto</Link>
-                        {/*<div className={"account_el"}>Zaloguj</div>*/}
-                        {/*<div className={"account_el"}>Załóż konto</div>*/}
+
                     </div>
                     <div className={"nav"}>
 

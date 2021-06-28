@@ -1,11 +1,12 @@
 import React from "react";
-import "./Local.scss"
+// import "./Local.scss"
 
 
 export const Local = (props) => {
     return (
-        <div className={"Local"}>
+        <div className={"org"}>
             <div className={"content_desc"}>W naszej bazie znajdziesz listę zweryfikowanych Zbiórek, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.</div>
+            <div className={"page"}>
             <div className={"list"}>
                 <div className={"list_el list_el1"}>
                     <div className={"left_side"}>
@@ -35,7 +36,7 @@ export const Local = (props) => {
                     </div>
                 </div>
             </div>
-
+            </div>
         </div>
         )
 }

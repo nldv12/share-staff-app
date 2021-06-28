@@ -12,6 +12,7 @@
     align-items: center;
     height: 200px;
     .first_title {
+      text-align: center;
       margin-top: 55px;
       margin-bottom: 25px;
       font-size: 38px;
@@ -111,10 +112,14 @@
 
 @media (max-width: 740px) {
   .HomeSteps {
+    .first_div {
+      margin-bottom: 30px;
+    }
 
     .sec_div {
-      height: 100vh;
+      height: 100%;
       .sec_div_elements {
+        padding: 30px 10px;
         flex-direction: column;
         gap: 40px;
       }
@@ -122,3 +127,16 @@
   }
 
 }
+//@media (max-width: 740px) {
+//  .HomeSteps {
+//
+//    .sec_div {
+//      height: 100vh;
+//      .sec_div_elements {
+//        flex-direction: column;
+//        gap: 40px;
+//      }
+//    }
+//  }
+//
+//}

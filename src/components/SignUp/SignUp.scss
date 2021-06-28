@@ -72,6 +72,7 @@
     }
 
     .deco {
+      background-position: center;
       margin-top: 25px;
       height: 33px;
       width: 253px;
@@ -135,6 +136,48 @@
       transform: scale(1.05);
     }
   }
+}
 
-
+@media (max-width: 660px) {
+  .SignUp {
+    .account_nav_container {
+      margin-right: 20px;
+      margin-top: 50px;
+      .nav { display: none}
+    }
+    .SignUp_container {
+      margin-top: 70px;
+      .two_buttons {
+        width: 385px;
+      }
+    }
+  }
+}
+@media (max-width: 500px) {
+  .SignUp {
+    .SignUp_container {
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      .deco {
+        width: 70%;
+      }
+      .form_container{
+        width: 90%;
+        .form_el {
+          width: 80%;
+          .label {
+            align-self: flex-start;
+          }
+          .inputText {
+            width: 100%;
+          }
+        }
+      }
+      .two_buttons {
+        margin-top: 13px;
+        width: 90%;
+      }
+    }
+  }
 }

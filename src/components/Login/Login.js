@@ -67,10 +67,10 @@ export const Login = (props) => {
                 </div>
                 <div className={"nav"}>
                     <Link to="/share-staff-app" className={"nav_el"}>Start</Link>
-                    <Link to="/share-staff-app" className={"nav_el"}>O co chodzi?</Link>
-                    <Link to="/share-staff-app" className={"nav_el"}>O nas</Link>
-                    <Link to="/share-staff-app" className={"nav_el"}>Fundacja i organizacje</Link>
-                    <Link to="/share-staff-app" className={"nav_el"}>Kontakt</Link>
+                    <Link to="/HomeSteps" className={"nav_el"}>O co chodzi?</Link>
+                    <Link to="/HomeAboutUs" className={"nav_el"}>O nas</Link>
+                    <Link to="/HomeWhoWeHelp" className={"nav_el"}>Fundacja i organizacje</Link>
+                    <Link to="/HomeContact" className={"nav_el"}>Kontakt</Link>
                 </div>
             </div>
             <div className={"login_container"}>

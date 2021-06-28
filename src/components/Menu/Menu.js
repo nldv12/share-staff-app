@@ -11,8 +11,6 @@ export const Menu = () => {
     const handleClick = () => {
         setBurger(!burger)
     }
-
-
     return (
 
         <>
@@ -27,20 +25,20 @@ export const Menu = () => {
 
                         <ul className={"nav-list"}>
                             <li className={"nav_item"}>
-                                <LinkScroll to="HomeHeader" smooth={true} className={"nav-link"}>Start</LinkScroll>
+                                <Link to="/share-staff-app" onClick={handleClick} className={"nav-link"}>Start</Link>
                             </li>
                             <li className={"nav_item"}>
-                                <LinkScroll to="HomeSteps" smooth={true} className={"nav-link"}>O co chodzi?</LinkScroll>
+                                <Link to="/HomeSteps" onClick={handleClick} className={"nav-link"}>O co chodzi?</Link>
                             </li>
                             <li className={"nav_item"}>
-                                <LinkScroll to="HomeAboutUs" smooth={true} className={"nav-link"}>O nas</LinkScroll>
+                                <Link to="/HomeAboutUs" onClick={handleClick} className={"nav-link"}>O nas</Link>
                             </li>
                             <li className={"nav_item"}>
-                                <LinkScroll to="HomeAboutUs" smooth={true} className={"nav-link"}>Fundacja i
-                                    organizacje</LinkScroll>
+                                <Link to="/HomeWhoWeHelp" onClick={handleClick} className={"nav-link"}>Fundacja i
+                                    organizacje</Link>
                             </li>
                             <li className={"nav_item"}>
-                                <LinkScroll to="HomeAboutUs" smooth={true} className={"nav-link"}>Kontakt</LinkScroll>
+                                <Link to="/HomeContact" onClick={handleClick} className={"nav-link"}>Kontakt</Link>
                             </li>
 
                         </ul>

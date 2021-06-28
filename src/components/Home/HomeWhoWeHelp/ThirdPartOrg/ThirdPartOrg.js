@@ -1,7 +1,6 @@
 import React, {useState} from "react";
-import "./ThirdPartOrg.scss"
-import {Page1} from "./page1/page1";
-import {Page2} from "./page2/page2";
+import {Page1} from "./page1";
+import {Page2} from "./page2";
 
 
 export const ThirdPartOrg = (props) => {
@@ -16,7 +15,7 @@ export const ThirdPartOrg = (props) => {
 
     if (page==="1") {
         return (
-            <div className={"ThirdPartOrg"}>
+            <div className={"ThirdPartOrg org"}>
                 <div className={"content_desc"}>W naszej bazie znajdziesz listę zweryfikowanych Organizacji pozarządowych, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.</div>
                 <Page1/>
                 <div className={"pages"}>
@@ -27,7 +26,7 @@ export const ThirdPartOrg = (props) => {
         )
     } else if (page==="2") {
         return (
-            <div className={"Fonds"}>
+            <div className={"ThirdPartOrg org"}>
                 <div className={"content_desc"}>W naszej bazie znajdziesz listę zweryfikowanych Organizacji pozarządowych, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.</div>
                 <Page2/>
                 <div className={"pages"}>

@@ -3,6 +3,10 @@ import React, {useState, useEffect, } from "react";
 import './App.css';
 import {Route, Switch, useHistory} from "react-router-dom";
 import {Home} from "./components/Home/Home";
+import {HomeAboutUs} from "./components/Home/HomeAboutUs/HomeAboutUs";
+import {HomeContact} from "./components/Home/HomeContact/HomeContact";
+import {HomeSteps} from "./components/Home/HomeSteps/HomeSteps";
+import {HomeWhoWeHelp} from "./components/Home/HomeWhoWeHelp/HomeWhoWeHelp";
 import {Home as HomeLoged} from "./components/HomeLogged/Home";
 import {Login} from "./components/Login/Login";
 import {Menu} from "./components/Menu/Menu";
@@ -113,6 +117,10 @@ function App() {
             <Menu/>
             <Switch>
                 <Route path="/share-staff-app" exact component={Home}/>
+                <Route path="/HomeAboutUs" exact component={HomeAboutUs}/>
+                <Route path="/HomeContact" exact component={HomeContact}/>
+                <Route path="/HomeSteps" exact component={HomeSteps}/>
+                <Route path="/HomeWhoWeHelp" exact component={HomeWhoWeHelp}/>
                 <Route exact path="/user">
                     <HomeLoged user={user} handleLogOut={handleLogOut} />
                 </Route>

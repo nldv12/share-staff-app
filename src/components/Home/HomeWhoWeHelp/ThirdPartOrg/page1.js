@@ -1,10 +1,9 @@
 import React from "react";
-import "./page1.scss"
 
 
 export const Page1 = (props) => {
     return (
-        <div className={"Page1"}>
+        <div className={"page"}>
             <div className={"list"}>
                 <div className={"list_el list_el1"}>
                     <div className={"left_side"}>
