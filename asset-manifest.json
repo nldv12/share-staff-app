@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/share-staff-app/static/css/main.b4c56f04.chunk.css",
-    "main.js": "/share-staff-app/static/js/main.352c0c44.chunk.js",
-    "main.js.map": "/share-staff-app/static/js/main.352c0c44.chunk.js.map",
+    "main.css": "/share-staff-app/static/css/main.1fa8890a.chunk.css",
+    "main.js": "/share-staff-app/static/js/main.a7b8fc5d.chunk.js",
+    "main.js.map": "/share-staff-app/static/js/main.a7b8fc5d.chunk.js.map",
     "runtime-main.js": "/share-staff-app/static/js/runtime-main.d9c003b8.js",
     "runtime-main.js.map": "/share-staff-app/static/js/runtime-main.d9c003b8.js.map",
     "static/css/2.70c372c2.chunk.css": "/share-staff-app/static/css/2.70c372c2.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.180307a2.chunk.js.map": "/share-staff-app/static/js/3.180307a2.chunk.js.map",
     "index.html": "/share-staff-app/index.html",
     "static/css/2.70c372c2.chunk.css.map": "/share-staff-app/static/css/2.70c372c2.chunk.css.map",
-    "static/css/main.b4c56f04.chunk.css.map": "/share-staff-app/static/css/main.b4c56f04.chunk.css.map",
+    "static/css/main.1fa8890a.chunk.css.map": "/share-staff-app/static/css/main.1fa8890a.chunk.css.map",
     "static/js/2.9431c6ae.chunk.js.LICENSE.txt": "/share-staff-app/static/js/2.9431c6ae.chunk.js.LICENSE.txt",
     "static/media/HomeStatistics.scss": "/share-staff-app/static/media/3 Columns Background@2x.8ac46674.png",
     "static/media/HomeContact.scss": "/share-staff-app/static/media/Instagram.5b663cf3.svg",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.d9c003b8.js",
     "static/css/2.70c372c2.chunk.css",
     "static/js/2.9431c6ae.chunk.js",
-    "static/css/main.b4c56f04.chunk.css",
-    "static/js/main.352c0c44.chunk.js"
+    "static/css/main.1fa8890a.chunk.css",
+    "static/js/main.a7b8fc5d.chunk.js"
   ]
 }
