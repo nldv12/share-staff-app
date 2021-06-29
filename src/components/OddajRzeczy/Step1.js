@@ -91,7 +91,7 @@ export const Step1 = ({setItemTypes, setStep}) => {
                     komu najlepiej je przekazać.
                 </div>
             </div>
-            <div className="form">
+            <div className="form back1">
                 <div className="container">
                     <div className="step_count">Krok 1/4</div>
                     <div className="title">Zaznacz co chcesz oddać:</div>

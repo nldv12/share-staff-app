@@ -64,7 +64,7 @@ let ifError = false
                 <div className="title">Ważne!</div>
                 <div className="title_desc">Podaj adres oraz termin odbioru rzeczy.</div>
             </div>
-            <div className="form">
+            <div className="form back4">
                 <div className="container">
                     <div className="step_count">Krok 4/4</div>
                     <div className="title">Podaj adres oraz termin odbioru rzecz przez kuriera</div>

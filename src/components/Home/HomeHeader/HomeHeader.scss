@@ -152,6 +152,10 @@
 }
 @media (min-width: 1653px) {
   .HomeHeader{
+    //gap: 300px;
+    .left_side {
+      width: 1000px;
+    }
     .right_side{
       width: 50%;
     }

@@ -21,7 +21,7 @@ export const Step2 = ({setNrOfBags, setStep}) => {
                 <div className="title">Ważne!</div>
                 <div className="title_desc">Wszystkie rzeczy do oddania zapakuj w 60l worki. Dokładną instrukcję jak poprawnie spakować rzeczy znajdziesz TUTAJ.</div>
             </div>
-            <div className="form">
+            <div className="form back2">
                 <div className="container">
                     <div className="step_count">Krok 2/4</div>
                     <div className="title">Podaj liczbę 60l worków, w które spakowałeś/aś rzeczy:</div>

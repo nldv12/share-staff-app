@@ -60,7 +60,7 @@ export const Step3 = ({setNameOfOrg, setWhoWeHelp, setCity, setStep}) => {
                     wyszukiwarce. Możesz też filtrować organizacje po ich lokalizacji bądź celu ich pomocy.
                 </div>
             </div>
-            <div className="form">
+            <div className="form back3">
                 <div className="container">
                     <div className="step_count">Krok 3/4</div>
                     <div className="title">Lokalizacja:</div>

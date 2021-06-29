@@ -30,7 +30,7 @@ export const Step5 = ({formCompleted, setStep}) => {
     return (
         <div className={"step"}>
 
-            <div className="form">
+            <div className="form back5">
                 <div className="container">
                     <div className="title">Podsumowanie Twojej darowizny</div>
                     <div className="small_title">Oddajesz:</div>
@@ -79,7 +79,7 @@ export const Step5 = ({formCompleted, setStep}) => {
                                 <div className="col col2">
                                     <div className="desc">{formCompleted.reciveDate}</div>
                                     <div className="desc">{formCompleted.reciveTime}</div>
-                                    <div className="desc">{formCompleted.deliveryNotice} </div>
+                                    <div className="desc delivery">{formCompleted.deliveryNotice} </div>
                                 </div>
                             </div>
                         </div>
